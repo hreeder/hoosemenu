@@ -50,8 +50,8 @@
     },
     {
       "price": 10,
-      "vegetarian": false,
-      "vegan": false,
+      "vegetarian": true,
+      "vegan": true,
       "name": "Regular Vegan Nachos"
     },
     {
