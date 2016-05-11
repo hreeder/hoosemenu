@@ -4,6 +4,7 @@ var ReactDOM = require('react-dom');
 var MainItem = require('./mains');
 var DessertItem = require('./desserts');
 var OptionsPanel = require('./options');
+var Receipt = require('./receipt');
 
 var App = React.createClass({
   componentDidMount: function() {
@@ -113,6 +114,10 @@ var App = React.createClass({
           </div>
           <div className="col-md-3">
             <OptionsPanel opts={this.state.options} update={this.setOptions}></OptionsPanel>
+            <hr/>
+            <Receipt main={this.state.chosenMain}
+                     toppings={this.state.chosenToppings}
+                     dessert={this.state.chosenDessert}></Receipt>
           </div>
         </div>
       </div>

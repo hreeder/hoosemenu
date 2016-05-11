@@ -45,7 +45,6 @@ var OptionsPanel = React.createClass({
             <label>
               <input type="radio" name="options" id="optionsVegan" onChange={this.updateVegan} /> I DON'T WANT ANY ANIMAL PRODUCTS
             </label>
-            <hr/>
           </div>
         </div>
       </div>
