@@ -1,197 +1,216 @@
 {
   "mains": [
     {
-      "price": 5.75,
+      "price": 6.5,
       "vegetarian": true,
       "vegan": false,
       "name": "Crispy Onion Rings"
     },
     {
-      "price": 5.75,
+      "price": 6.5,
       "vegetarian": true,
       "vegan": true,
       "name": "Vegan Onion Rings"
     },
     {
-      "price": 5.5,
+      "price": 6.5,
       "vegetarian": true,
       "vegan": true,
       "name": "Vegan Spring Rolls"
     },
     {
-      "price": 6,
+      "price": 6.75,
       "vegetarian": false,
       "vegan": false,
       "name": "Popcorn Chicken"
     },
     {
-      "price": 3.25,
+      "price": 3.5,
       "vegetarian": true,
       "vegan": true,
       "name": "Chips"
     },
     {
-      "price": 2.5,
+      "price": 2.75,
       "vegetarian": true,
       "vegan": true,
       "name": "French Fries"
     },
     {
-      "price": 10,
+      "price": 12.5,
       "vegetarian": false,
       "vegan": false,
       "name": "Regular Beef Nachos"
     },
     {
-      "price": 10,
+      "price": 12.5,
       "vegetarian": true,
       "vegan": false,
       "name": "Regular Vegetarian Nachos"
     },
     {
-      "price": 10,
+      "price": 12.5,
       "vegetarian": true,
       "vegan": true,
       "name": "Regular Vegan Nachos"
     },
     {
-      "price": 17.5,
+      "price": 20,
       "vegetarian": false,
       "vegan": false,
       "name": "Gigantic Beef Nachos"
     },
     {
-      "price": 17.5,
+      "price": 20,
       "vegetarian": true,
       "vegan": false,
       "name": "Gigantic Vegetarian Nachos"
     },
     {
-      "price": 8.75,
+      "price": 10,
       "vegetarian": false,
       "vegan": false,
       "name": "Pulled Pork Burrito"
     },
     {
-      "price": 8.75,
+      "price": 10,
       "vegetarian": false,
       "vegan": false,
       "name": "Chicken Burrito"
     },
     {
-      "price": 8,
+      "price": 9,
       "vegetarian": true,
       "vegan": false,
       "name": "Vegetarian Burrito"
     },
     {
-      "price": 8,
+      "price": 9,
       "vegetarian": true,
       "vegan": true,
       "name": "Vegan Burrito"
     },
     {
-      "price": 8.5,
+      "price": 9.25,
       "vegetarian": false,
       "vegan": false,
       "name": "Beef Chilli"
     },
     {
-      "price": 8.5,
+      "price": 9.25,
       "vegetarian": true,
       "vegan": false,
       "name": "Vegetarian Chilli"
     },
     {
-      "price": 8.5,
+      "price": 9.25,
       "vegetarian": true,
       "vegan": true,
       "name": "Vegan Chilli"
     },
     {
-      "price": 6.75,
+      "price": 7.5,
       "vegetarian": true,
       "vegan": false,
+      "toppings": "macncheesetoppings",
       "name": "Beer Mac'n'Cheese"
     },
     {
-      "price": 6,
+      "price": 6.75,
       "vegetarian": false,
       "vegan": false,
       "toppings": "dogtoppings",
       "name": "Hot Dog"
     },
     {
-      "price": 6,
+      "price": 6.75,
       "vegetarian": true,
       "vegan": true,
       "toppings": "dogtoppings",
       "name": "Vegan Hot Dog"
     },
     {
-      "price": 7,
+      "price": 8.25,
       "vegetarian": false,
       "vegan": false,
       "toppings": "burgtoppings",
       "name": "Beef Burger"
     },
     {
-      "price": 7,
+      "price": 8.25,
       "vegetarian": false,
       "vegan": false,
       "toppings": "burgtoppings",
       "name": "Chicken Burger"
     },
     {
-      "price": 7,
+      "price": 8.25,
       "vegetarian": true,
       "vegan": true,
       "toppings": "burgtoppings",
       "name": "Vegan Burger"
     },
     {
-      "price": 8.75,
+      "price": 10,
       "vegetarian": false,
       "vegan": false,
       "toppings": "burgtoppings",
       "name": "Double Beef Burger"
     },
     {
-      "price": 8.75,
+      "price": 10,
       "vegetarian": false,
       "vegan": false,
       "toppings": "burgtoppings",
       "name": "Double Chicken Burger"
     },
     {
-      "price": 8.75,
+      "price": 10,
       "vegetarian": true,
       "vegan": true,
       "toppings": "burgtoppings",
       "name": "Double Vegan Burger"
+    },
+    {
+      "price": 9,
+      "vegetarian": false,
+      "vegan": false,
+      "name": "Steak Sandwich"
+    },
+    {
+      "price": 8,
+      "vegetarian": false,
+      "vegan": false,
+      "name": "Chicken BLT"
+    },
+    {
+      "price": 8,
+      "vegetarian": true,
+      "vegan": true,
+      "name": "Fried Tofu with Roasted Pepper Sandwich"
     }
   ],
   "desserts": [
     {
-      "price": 5.5,
+      "price": 6,
       "vegetarian": true,
       "vegan": false,
       "name": "Ice Cream Sundae"
     },
     {
-      "price": 5.5,
+      "price": 6,
       "vegetarian": true,
       "vegan": true,
       "name": "Vegan Sorbet Sundae"
     },
     {
-      "price": 5.5,
+      "price": 6,
       "vegetarian": true,
       "vegan": false,
       "name": "Sticky Toffee Pudding"
     },
     {
-      "price": 5.5,
+      "price": 6,
       "vegetarian": true,
       "vegan": false,
       "name": "Hot Chocolate Pudding"
@@ -200,96 +219,162 @@
   "toppings": {
     "dogtoppings": [
       {
-        "price": 1,
+        "price": 1.25,
         "vegetarian": false,
         "vegan": false,
         "name": "Beef Chilli"
       },
       {
-        "price": 1,
+        "price": 1.25,
         "vegetarian": true,
         "vegan": false,
         "name": "Veggie Chilli"
       },
       {
-        "price": 1,
+        "price": 1.25,
         "vegetarian": false,
         "vegan": false,
         "name": "Pulled Pork"
       },
       {
-        "price": 0.5,
-        "vegetarian": true,
-        "vegan": false,
-        "name": "Cheese"
-      },
-      {
-        "price": 0.5,
-        "vegetarian": true,
-        "vegan": false,
-        "name": "Fried Onions"
-      },
-      {
-        "price": 0.5,
-        "vegetarian": true,
-        "vegan": true,
-        "name": "Jalape\u00f1os"
-      },
-      {
-        "price": 0.5,
-        "vegetarian": true,
-        "vegan": true,
-        "name": "Guacamole"
-      },
-      {
-        "price": 0.5,
-        "vegetarian": true,
-        "vegan": false,
-        "name": "Sour Cream"
-      }
-    ],
-    "burgtoppings": [
-      {
-        "price": 1,
-        "vegetarian": true,
-        "vegan": false,
-        "name": "Cheddar Cheese"
-      },
-      {
-        "price": 1,
-        "vegetarian": true,
-        "vegan": false,
-        "name": "Monterey Jack"
-      },
-      {
-        "price": 1,
-        "vegetarian": true,
-        "vegan": true,
-        "name": "Vegan Cheese"
-      },
-      {
-        "price": 1,
+        "price": 1.25,
         "vegetarian": false,
         "vegan": false,
         "name": "Bacon"
       },
       {
-        "price": 1,
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Cheese"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Vegan Cheese"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Fried Onions"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Jalape\u00f1os"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Guacamole"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Sour Cream"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Mushrooms"
+      },
+      {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Onion Rings"
+      },
+      {
+        "price": 0.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Sweet Chilli Sauce"
+      },
+      {
+        "price": 0.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "BBQ Sauce"
+      },
+      {
+        "price": 0.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Relish"
+      },
+      {
+        "price": 0.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Mustard"
+      },
+      {
+        "price": 0.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Ketchup"
+      },
+      {
+        "price": 0.25,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Mayonnaise"
+      }
+    ],
+    "burgtoppings": [
+      {
+        "price": 1.25,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Cheddar Cheese"
+      },
+      {
+        "price": 1.25,
+        "vegetarian": true,
+        "vegan": false,
+        "name": "Monterey Jack"
+      },
+      {
+        "price": 1.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Vegan Cheese"
+      },
+      {
+        "price": 1.25,
+        "vegetarian": false,
+        "vegan": false,
+        "name": "Bacon"
+      },
+      {
+        "price": 1.25,
         "vegetarian": false,
         "vegan": false,
         "name": "Pulled Pork"
       },
       {
-        "price": 1,
+        "price": 1.25,
         "vegetarian": false,
         "vegan": false,
         "name": "Beef Chilli"
       },
       {
-        "price": 1,
+        "price": 1.25,
         "vegetarian": true,
         "vegan": true,
         "name": "Veggie Chilli"
+      },
+      {
+        "price": 1.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Fried Tofu"
       },
       {
         "price": 0.75,
@@ -328,6 +413,12 @@
         "name": "Sour Cream"
       },
       {
+        "price": 0.75,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Pickled Gherkins"
+      },
+      {
         "price": 0.25,
         "vegetarian": true,
         "vegan": true,
@@ -363,6 +454,26 @@
         "vegan": false,
         "name": "Mayonnaise"
       }
+    ],
+    "macncheesetoppings": [
+      {
+        "price": 1.25,
+        "vegetarian": false,
+        "vegan": false,
+        "name": "Pulled Pork"
+      },
+      {
+        "price": 1.25,
+        "vegetarian": false,
+        "vegan": false,
+        "name": "Bacon"
+      },
+      {
+        "price": 1.25,
+        "vegetarian": true,
+        "vegan": true,
+        "name": "Sundried Tomatoes"
+      },
     ]
   }
 }
