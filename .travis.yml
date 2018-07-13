@@ -1,4 +1,5 @@
 script:
+- yarn
 - yarn build
 deploy:
   provider: gcs
