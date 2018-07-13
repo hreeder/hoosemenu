@@ -71,6 +71,8 @@ var App = React.createClass({
     if (main.hasOwnProperty("toppings")) {
       var key = main['toppings'],
           toppings = this.state.menu['toppings'][key].filter(this.validateWithoutMeat),
+          // Read the ~~ as Math.floor
+          // Essentially we're getting a random entry from toppings
           chosen = toppings[~~(Math.random()*toppings.length)];
 
       var current = this.state.chosenToppings;
