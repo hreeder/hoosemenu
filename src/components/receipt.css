@@ -1,0 +1,8 @@
+#receipt-block {
+  line-height: 0.8em;
+  font-size: small;
+}
+
+#receipt-block hr {
+  width: 75%;
+}
