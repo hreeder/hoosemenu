@@ -1,0 +1,11 @@
+script:
+- yarn build
+deploy:
+  provider: gcs
+  access_key_id: GOOGH77F76634ZEZFSFJLOYM
+  secret_access_key:
+    secure: PTT95XfTjyQVSzCzPp53YfCe17pSOyjxcSiEBDKrRhqCPLCkspCFBimscA0F3UzINN01EuXPbaITW2QFho275u3p//05URScQ5/fO4wvOKeCaINabpM0uZZmnxSVdCKW0V0qhu464iBnt/SyU8BhF2ecssa8Gp8cPVf1eQ/YRqhwsadlse7q5IR/BvFD8Sc8+y/RCB+7QkgEns2vusa6BVOxELxuPFuoXJAyAt/q5hJnaFNIFycVtv3YdvUAwT4qt6uLhnqgqPmlG+2tOMecS5sFf/6VwuksxbSzLAWQ9d0PolfwMMH7H7dRP3Cgrb81d9LRD4CBfvcGEZqMBHHzgL0/OkcwChwYifzvO+krFzoeyxHYiAhAgJjJKw0bRzzgWRAd4wEfcGW1qbxYNHNIK3/9Tu1Bdl6XdPrhVf5M4EkkN5wFjGhEltgjEOAtqkRHtZCj59HF0UgxN/zB0x9gnWx5Xs2RQkU5ouE81pklBggEWwr7QQBJYFZsh1Zr+FGd1Q3H71NugwPTnJLHIT8sQkIi6/oCm0r13JRtn0sZtJ5GmnJPECMW5G96+u49l6mCiACs2xFBcG1wPjB9znPL3PcD0V3eGegXIy0m/C5DF2t1fptaT42hEnOrNje/dCb7P76W8J/H1S4rMcegn4yw2SHLh/dLAjqOJ7SBxNRJrvk=
+  bucket: hoose.tard.is
+  local-dir: build
+  acl: public-read
+  skip_cleanup: true
